@@ -1,0 +1,11 @@
+# Core
+google-cloud-bigquery
+db-dtypes            # required for BigQuery .to_dataframe()
+pandas
+numpy
+scikit-learn
+lightgbm
+matplotlib
+
+# Config
+python-dotenv        # loads GCP_PROJECT_ID from .env when running locally
